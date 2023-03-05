@@ -1,6 +1,6 @@
-import { Inter } from 'next/font/google';
+import '@/lib/ui/css/reset.css';
 
-import './globals.css';
+import { Inter } from 'next/font/google';
 
 export const metadata = {
   title: 'Create Next App',
