@@ -1,0 +1,18 @@
+/* Step is 4px. */
+
+:root {
+  --ui-spacing-10: 0.4rem;
+  --ui-spacing-20: 0.8rem;
+  --ui-spacing-30: 1.2rem;
+  --ui-spacing-40: 1.6rem;
+  --ui-spacing-50: 2rem;
+  --ui-spacing-60: 2.4rem;
+  --ui-spacing-70: 2.8rem;
+  --ui-spacing-80: 3.2rem;
+  --ui-spacing-90: 3.6rem;
+  --ui-spacing-100: 4rem;
+  --ui-spacing-120: 4.8rem;
+  --ui-spacing-140: 5.6rem;
+  --ui-spacing-160: 6.4rem;
+  --ui-spacing-200: 7.6rem;
+}

@@ -21,17 +21,17 @@ body {
 body {
   box-sizing: border-box;
 
-  color: #000000;
-  background-color: #ffffff;
+  color: var(--ui-color-base-text-strong);
+  background-color: var(--ui-color-base-bg);
 
-  font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 1.5;
+  font-size: var(--ui-font-size-body1);
+  font-weight: var(--ui-font-weight-body1);
+  line-height: var(--ui-line-height-base);
 }
 
 b,
 strong {
-  font-weight: 700;
+  font-weight: var(--ui-font-weight-bold);
 }
 
 button,

@@ -1,3 +1,4 @@
+import '@/lib/ui/css/root-theme.css';
 import '@/lib/ui/css/reset.css';
 
 import { Inter } from 'next/font/google';
