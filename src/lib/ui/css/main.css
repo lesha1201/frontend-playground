@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /*-- Colors --*/
+
+    color-scheme: dark;
+
+    /* Plain */
+    --color-black: rgb(0, 0, 0);
+    --color-white: #fff;
+
+    /* Base */
+    --color-base-bg: var(--color-black);
+    --color-base-text-strong: var(--color-white);
+    --color-base-text-weak: #7f7e8c;
+    --color-base-surface: #101016;
+    --color-base-surface-text-strong: var(--color-base-text-strong);
+    --color-base-surface-text-weak: var(--color-base-text-weak);
+
+    /* Primary */
+    --color-primary-surface: #7c4afe;
+    --color-primary-surface-up: #8054ff;
+    --color-primary-surface-down: #7641f5;
+    --color-primary-surface-text-strong: var(--color-white);
+    --color-primary-surface-text-weak: #cfcaff;
+    --color-primary-text: #8259ff;
+
+    /* Error */
+    --color-error-surface: #e20728;
+    --color-error-surface-text-strong: var(--color-white);
+    --color-error-surface-text-weak: #ebc1c8;
+    --color-error-surface-subtle: rgba(226, 7, 40, 0.08);
+    --color-error-text: #ff2c3a;
+    --color-error-border: var(--color-error-text);
+    --color-error-border-subtle: rgba(255, 44, 58, 0.5);
+
+    /* Neutral */
+    --color-neutral-surface: var(--color-base-surface);
+    --color-neutral-surface-text-strong: var(--color-base-surface-text-strong);
+    --color-neutral-surface-text-weak: var(--color-base-surface-text-weak);
+  }
+}
