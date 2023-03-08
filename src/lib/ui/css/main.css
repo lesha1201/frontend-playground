@@ -42,4 +42,9 @@
     --color-neutral-surface-text-strong: var(--color-base-surface-text-strong);
     --color-neutral-surface-text-weak: var(--color-base-surface-text-weak);
   }
+
+  body {
+    background-color: theme('colors.base.bg');
+    color: theme('colors.base.text-strong');
+  }
 }
