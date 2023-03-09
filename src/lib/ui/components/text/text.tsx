@@ -66,12 +66,16 @@ const defaultVariantMapping: Record<TextVariant, As> = {
 };
 
 export const Text = forwardRef<'p', TextProps>(function Text(
-  { as, className, variant = 'body1', ...rest },
+  { as, className, variant = 'body1', children, ...rest },
   ref,
 ) {
   const component = as || defaultVariantMapping[variant] || 'p';
 
   const cn = tclsx(text({ variant }), className);
 
-  return <Box ref={ref} as={component} className={cn} {...rest} />;
+  return (
+    <Box ref={ref} as={component} className={cn} {...rest}>
+      {children}
+    </Box>
+  );
 });
