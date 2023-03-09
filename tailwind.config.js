@@ -30,6 +30,7 @@ module.exports = {
         surface: 'var(--color-error-surface)',
         'surface-text-strong': 'var(--color-error-surface-text-strong)',
         'surface-text-weak': 'var(--color-error-surface-text-weak)',
+        'surface-subtle': 'var(--color-error-surface-subtle)',
         text: 'var(--color-error-text)',
         border: 'var(--color-error-border)',
         'border-subtle': 'var(--color-error-border-subtle)',
