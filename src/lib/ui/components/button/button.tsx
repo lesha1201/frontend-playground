@@ -1,16 +1,11 @@
 import React from 'react';
 import { clsx } from 'clsx';
-import { tv } from 'tailwind-variants';
+import { tv, VariantProps } from 'tailwind-variants';
 
 import { forwardRef } from '../../utils/react';
 import { Box } from '../box';
 
-/*-- Types --*/
-
-export interface ButtonProps {
-  color?: 'primary';
-  width?: 'full' | 'auto';
-}
+/*-- Styles --*/
 
 const button = tv({
   base: 'inline-flex items-center justify-center select-none whitespace-nowrap font-bold text-base bg-white text-black rounded-md py-4 px-6 disabled:cursor-not-allowed disabled:opacity-50',
@@ -28,6 +23,12 @@ const button = tv({
     color: 'primary',
   },
 });
+
+/*-- Types --*/
+
+type ButtonVariants = VariantProps<typeof button>;
+
+export interface ButtonProps extends ButtonVariants {}
 
 /*-- Main --*/
 
