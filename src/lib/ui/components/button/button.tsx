@@ -1,8 +1,7 @@
-import React from 'react';
-import { clsx } from 'clsx';
 import { tv, VariantProps } from 'tailwind-variants';
 
 import { forwardRef } from '../../utils/react';
+import { tclsx } from '../../utils/tailwind';
 import { Box } from '../box';
 
 /*-- Styles --*/
@@ -36,12 +35,12 @@ export const Button = forwardRef<'button', ButtonProps>(function Button(
   { as = 'button', children, className, color = 'primary', width, ...rest },
   ref,
 ) {
-  const cn = clsx(
-    className,
+  const cn = tclsx(
     button({
       color,
       width,
     }),
+    className,
   );
 
   return (

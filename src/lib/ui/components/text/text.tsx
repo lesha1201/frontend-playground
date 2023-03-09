@@ -1,9 +1,8 @@
-import React from 'react';
-import { clsx } from 'clsx';
 import { tv, VariantProps } from 'tailwind-variants';
 
 import { As } from '../../types/react';
 import { forwardRef } from '../../utils/react';
+import { tclsx } from '../../utils/tailwind';
 import { Box } from '../box';
 
 /*-- Styles --*/
@@ -57,7 +56,7 @@ export const Text = forwardRef<'p', TextProps>(function Text(
 ) {
   const component = as || defaultVariantMapping[variant] || 'p';
 
-  const cn = clsx(className, text({ variant }));
+  const cn = tclsx(text({ variant }), className);
 
   return <Box ref={ref} as={component} className={cn} {...rest} />;
 });
