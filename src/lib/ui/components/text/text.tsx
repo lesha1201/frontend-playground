@@ -1,3 +1,18 @@
+/**
+ * A component that provides some predefined variants. We only use that
+ * component where we need some variant from it. In other cases, we don't
+ * really need to use it since we have Tailwind and can easily style via it
+ * (size, colors, weight, etc.).
+ *
+ * Examples:
+ * // We use `Text` because we want to have styles from `h1` variant.
+ * <Text variant="h1">Hello, World!</Text>
+ *
+ * // We want that element to inherit all text styles from the parent
+ * // but to have bold font. We don't need to use `Text` here.
+ * <div className="font-bold">Hello, World!</div>
+ */
+
 import { tv, VariantProps } from 'tailwind-variants';
 
 import { As } from '../../types/react';
