@@ -15,6 +15,8 @@ module.exports = {
         'text-strong': 'var(--color-base-text-strong)',
         'text-weak': 'var(--color-base-text-weak)',
         surface: 'var(--color-base-surface)',
+        'surface-up': 'var(--color-base-surface-up)',
+        'surface-down': 'var(--color-base-surface-down)',
         'surface-text-strong': 'var(--color-base-surface-text-strong)',
         'surface-text-weak': 'var(--color-base-surface-text-weak)',
       },
@@ -37,6 +39,8 @@ module.exports = {
       },
       neutral: {
         surface: 'var(--color-neutral-surface)',
+        'surface-up': 'var(--color-neutral-surface-up)',
+        'surface-down': 'var(--color-neutral-surface-down)',
         'surface-text-strong': 'var(--color-neutral-surface-text-strong)',
         'surface-text-weak': 'var(--color-neutral-surface-text-weak)',
       },

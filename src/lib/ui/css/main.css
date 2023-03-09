@@ -17,6 +17,8 @@
     --color-base-text-strong: var(--color-white);
     --color-base-text-weak: #7f7e8c;
     --color-base-surface: #171721;
+    --color-base-surface-up: #1c1c26;
+    --color-base-surface-down: #14131d;
     --color-base-surface-text-strong: var(--color-base-text-strong);
     --color-base-surface-text-weak: var(--color-base-text-weak);
 
@@ -39,6 +41,8 @@
 
     /* Neutral */
     --color-neutral-surface: var(--color-base-surface);
+    --color-neutral-surface-up: var(--color-base-surface-up);
+    --color-neutral-surface-down: var(--color-base-surface-down);
     --color-neutral-surface-text-strong: var(--color-base-surface-text-strong);
     --color-neutral-surface-text-weak: var(--color-base-surface-text-weak);
   }

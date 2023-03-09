@@ -12,6 +12,8 @@ const button = tv({
     color: {
       primary:
         'bg-primary-surface text-primary-surface-text-strong transition [&:not(:disabled)]:hover:bg-primary-surface-up [&:not(:disabled)]:active:bg-primary-surface-down',
+      neutral:
+        'bg-neutral-surface text-neutral-surface-text-strong transition [&:not(:disabled)]:hover:bg-neutral-surface-up [&:not(:disabled)]:active:bg-neutral-surface-down',
     },
     width: {
       auto: 'w-auto',
