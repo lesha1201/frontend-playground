@@ -6,6 +6,7 @@ module.exports = {
       // Plain
       current: 'currentColor',
       transparent: 'transparent',
+      inherit: 'inherit',
       black: 'var(--color-black)',
       white: 'var(--color-white)',
 
