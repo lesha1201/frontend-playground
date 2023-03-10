@@ -7,7 +7,7 @@ import { Box } from '../box';
 /*-- Styles --*/
 
 const input = tv({
-  base: 'rounded-md border border-base-text-weak bg-transparent px-3 py-4 placeholder:text-base-text-weak focus:border-primary-text focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-70',
+  base: 'relative rounded-md border border-base-text-weak bg-transparent px-3 py-4 placeholder:text-base-text-weak focus:border-primary-text focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-70',
   variants: {
     width: {
       full: 'w-full',

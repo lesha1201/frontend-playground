@@ -7,7 +7,7 @@ import { Box } from '../box';
 /*-- Styles --*/
 
 const field = tv({
-  base: 'flex flex-col gap-2',
+  base: 'relative flex flex-col gap-2',
 
   variants: {
     width: {
