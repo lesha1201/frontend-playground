@@ -15,13 +15,14 @@ export interface InputFieldProps
   error?: boolean | React.ReactNode;
   hint?: React.ReactNode;
   width?: FieldProps['width'];
+  inputRef?: React.ForwardedRef<HTMLInputElement>;
 }
 
 /*-- Main --*/
 
 export const InputField = React.forwardRef<HTMLDivElement, InputFieldProps>(
   function InputField(
-    { id, label, error, hint, width, labelEndAddon, ...rest },
+    { id, label, error, hint, width, labelEndAddon, inputRef, ...rest },
     ref,
   ) {
     const generatedId = useId();
@@ -41,6 +42,7 @@ export const InputField = React.forwardRef<HTMLDivElement, InputFieldProps>(
         </div>
 
         <Input
+          ref={inputRef}
           aria-invalid={isInvalid}
           aria-errormessage={errorMessageId}
           {...rest}

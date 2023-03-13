@@ -23,6 +23,12 @@ A personal project for trying new/latest technologies.
 
 ### Environment variables
 
+#### Client side
+
+| Name                  | Description  |
+| --------------------- | ------------ |
+| `NEXT_PUBLIC_API_URL` | Base API URL |
+
 #### Build
 
 | Name      | Description                            |
