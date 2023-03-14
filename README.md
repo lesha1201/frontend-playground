@@ -1,5 +1,7 @@
 A personal project for trying new/latest technologies.
 
+![Project preview](./preview.jpg 'Project preview')
+
 ## 💻 Development
 
 ### Scripts
